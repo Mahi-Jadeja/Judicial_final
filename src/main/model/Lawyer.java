@@ -1,4 +1,4 @@
-package main.model.person;
+package main.model;
 
 public class Lawyer {
     private int lawyerId;

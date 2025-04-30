@@ -1,4 +1,7 @@
 package main.exception;
 
-public class DuplicateHearingException {
+public class DuplicateHearingException extends Exception {
+    public DuplicateHearingException(String message) {
+        super(message);
+    }
 }
